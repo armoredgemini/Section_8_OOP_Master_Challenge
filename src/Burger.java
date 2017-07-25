@@ -4,12 +4,12 @@ import java.util.ArrayList;
  * Created by ac003588 on 7/24/2017.
  */
 public class Burger {
-    private Double basePrice = 3.00;
+    protected Double basePrice = 3.00;
     public String bun;
-    String meat;
-    public Integer maxExtras;
-    Integer totalExtras;
-    ArrayList al = new ArrayList();
+    public String meat;
+    protected Integer maxExtras;
+    protected Integer totalExtras;
+    protected ArrayList al = new ArrayList();
 
 
     public Burger(String bun, String meat) {
